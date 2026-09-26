@@ -1,0 +1,97 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:black;
+    color: white;
+    font-family:monospace;
+    line-height: 1.6;
+    padding: 0 20px 40px;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 50px;
+}
+
+nav h1 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-left: 25px;
+    transition: color 0.25s ease;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* About Me Section */
+h1 {
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin-bottom: 35px;
+    letter-spacing: 1px;
+}
+
+img {
+    display: block;
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-bottom: 30px;
+}
+
+p {
+    max-width: 680px;
+    font-size: 1.1rem;
+    color: gray;
+    line-height: 1.75;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    nav a {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+}
+
+/* Footer */
+footer {
+    padding: auto;
+    align-items: center;
+    border-top: 1px solid;
+}
+
+
