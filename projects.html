@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects & Skills | Esther Murigi</title>
+    <meta name="description" content="Skills, selected projects, and services from information security professional Esther Murigi.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a class="brand" href="index.html">Esther Murigi</a>
+        <a href="index.html">HOME</a>
+        <a href="projects.html">projects</a>
+        <a href="contact.html">contacts</a>
+    </nav>
+
+    <main>
+    <h1>Skills, Projects &amp; Services</h1>
+
+    <p class="lead">
+        A snapshot of what I can do, the work I have built so far, and how I can
+        help you. Use the filters to narrow the projects by category.
+    </p>
+
+    <!-- ==========================================================
+         SKILLS SECTION — at least 5 skills with proficiency bars
+         ========================================================== -->
+    <section id="skills">
+        <h2>Skills</h2>
+
+        <ul class="skills">
+            <li class="skill">
+                <div class="skill-head">
+                    <span class="skill-name">HTML5</span>
+                    <span class="skill-value">90%</span>
+                </div>
+                <div class="bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" aria-label="HTML5 proficiency">
+                    <span class="bar-fill" style="width: 90%"></span>
+                </div>
+            </li>
+
+            <li class="skill">
+                <div class="skill-head">
+                    <span class="skill-name">CSS3</span>
+                    <span class="skill-value">85%</span>
+                </div>
+                <div class="bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" aria-label="CSS3 proficiency">
+                    <span class="bar-fill" style="width: 85%"></span>
+                </div>
+            </li>
+
+            <li class="skill">
+                <div class="skill-head">
+                    <span class="skill-name">JavaScript</span>
+                    <span class="skill-value">75%</span>
+                </div>
+                <div class="bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" aria-label="JavaScript proficiency">
+                    <span class="bar-fill" style="width: 75%"></span>
+                </div>
+            </li>
+
+            <li class="skill">
+                <div class="skill-head">
+                    <span class="skill-name">Git &amp; GitHub</span>
+                    <span class="skill-value">80%</span>
+                </div>
+                <div class="bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" aria-label="Git and GitHub proficiency">
+                    <span class="bar-fill" style="width: 80%"></span>
+                </div>
+            </li>
+
+            <li class="skill">
+                <div class="skill-head">
+                    <span class="skill-name">Information Security</span>
+                    <span class="skill-value">85%</span>
+                </div>
+                <div class="bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" aria-label="Information Security proficiency">
+                    <span class="bar-fill" style="width: 85%"></span>
+                </div>
+            </li>
+
+            <li class="skill">
+                <div class="skill-head">
+                    <span class="skill-name">Technical Writing</span>
+                    <span class="skill-value">70%</span>
+                </div>
+                <div class="bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" aria-label="Technical Writing proficiency">
+                    <span class="bar-fill" style="width: 70%"></span>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- ==========================================================
+         PROJECTS SECTION — at least 3 project cards
+         Each card: name, 1-2 sentence description, technologies, link
+         ========================================================== -->
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <!-- Filter buttons: the JavaScript interaction on this page -->
+        <div class="filter-bar" role="group" aria-label="Filter projects by category">
+            <button type="button" class="filter-btn is-active" data-filter="all">All</button>
+            <button type="button" class="filter-btn" data-filter="web">Web</button>
+            <button type="button" class="filter-btn" data-filter="security">Security</button>
+            <button type="button" class="filter-btn" data-filter="coursework">Coursework</button>
+        </div>
+
+        <div class="project-list" id="projectGrid">
+
+            <article class="project-card" data-category="web coursework">
+                <img class="thumb" src="images/project-portfolio.svg" alt="Placeholder illustration of a portfolio website layout">
+                <p class="project-tag">Web &middot; Coursework</p>
+                <h3>Personal Portfolio Website</h3>
+                <p>
+                    A multi-page responsive portfolio built from scratch with semantic
+                    HTML and hand-written CSS, deployed to GitHub Pages and Vercel.
+                </p>
+                <ul class="tech">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Git</li>
+                </ul>
+                <a class="card-link" href="https://github.com/Esthermurigi/esthermurigi" target="_blank" rel="noopener">View repository &rarr;</a>
+            </article>
+
+            <article class="project-card" data-category="web coursework">
+                <img class="thumb" src="images/project-form.svg" alt="Placeholder illustration of a contact form showing a validation error">
+                <p class="project-tag">Web &middot; Coursework</p>
+                <h3>Validated Contact Form</h3>
+                <p>
+                    A contact form with client-side validation in JavaScript that checks
+                    required fields and email format before anything is submitted.
+                </p>
+                <ul class="tech">
+                    <li>JavaScript</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                </ul>
+                <a class="card-link" href="contact.html">Try it live &rarr;</a>
+            </article>
+
+            <article class="project-card" data-category="security">
+                <img class="thumb" src="images/project-scan.svg" alt="Placeholder illustration of a network scan with highlighted nodes">
+                <p class="project-tag">Security</p>
+                <h3>Network Vulnerability Scan Report</h3>
+                <p>
+                    A structured report turning raw scan output into prioritised,
+                    business-friendly remediation steps. <em>Full write-up coming soon.</em>
+                </p>
+                <ul class="tech">
+                    <li>Nmap</li>
+                    <li>Risk Analysis</li>
+                    <li>Reporting</li>
+                </ul>
+                <span class="card-link is-disabled" aria-disabled="true">Coming soon</span>
+            </article>
+
+            <article class="project-card" data-category="security coursework">
+                <img class="thumb" src="images/project-audit.svg" alt="Placeholder illustration of a padlock with a password field">
+                <p class="project-tag">Security &middot; Coursework</p>
+                <h3>Password Policy Audit Tool</h3>
+                <p>
+                    A checklist-based audit that scores an organisation's password rules
+                    against recognised guidance and flags every gap it finds.
+                </p>
+                <ul class="tech">
+                    <li>JavaScript</li>
+                    <li>Security Standards</li>
+                </ul>
+                <span class="card-link is-disabled" aria-disabled="true">Coming soon</span>
+            </article>
+
+        </div>
+
+        <!-- Shown by the script when a filter matches nothing -->
+        <p class="filter-empty" id="filterEmpty" hidden>No projects in this category yet.</p>
+    </section>
+
+    <!-- ==========================================================
+         SERVICES SECTION — optional but encouraged
+         ========================================================== -->
+    <section id="services">
+        <h2>Services</h2>
+
+        <p>What I could offer someone today:</p>
+
+        <ul class="services">
+            <li>
+                <strong>Basic Website Design</strong>
+                Clean, responsive single-page or multi-page sites in HTML and CSS,
+                ready to deploy.
+            </li>
+            <li>
+                <strong>Security Awareness Tutoring</strong>
+                One-to-one or small-group sessions on staying safe online, pitched
+                for non-technical audiences.
+            </li>
+            <li>
+                <strong>Website Security Review</strong>
+                A first-pass check of a small site for common weaknesses, delivered
+                as a short report with fixes.
+            </li>
+        </ul>
+    </section>
+
+    <p class="cta">
+        Want to talk about a project or a role?
+        <a href="contact.html">Get in touch &rarr;</a>
+    </p>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Esther Murigi. All rights reserved.</p>
+            <p class="tagline">Protecting systems • Securing data • Building trust</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

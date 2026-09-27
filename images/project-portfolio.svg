@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Personal portfolio website placeholder">
+  <rect width="640" height="400" fill="#0d0d0d"/>
+  <rect x="14" y="14" width="612" height="372" fill="none" stroke="#333333" stroke-width="2"/>
+  <rect x="14" y="14" width="612" height="46" fill="#161616"/>
+  <circle cx="46" cy="37" r="6" fill="#444444"/>
+  <circle cx="68" cy="37" r="6" fill="#444444"/>
+  <circle cx="90" cy="37" r="6" fill="#444444"/>
+  <rect x="120" y="28" width="300" height="18" rx="9" fill="#0d0d0d" stroke="#333333"/>
+  <circle cx="180" cy="170" r="52" fill="none" stroke="#666666" stroke-width="4"/>
+  <path d="M148 170a32 32 0 0 1 64 0" fill="none" stroke="#666666" stroke-width="4"/>
+  <rect x="262" y="128" width="230" height="16" rx="4" fill="#3a3a3a"/>
+  <rect x="262" y="158" width="300" height="10" rx="4" fill="#262626"/>
+  <rect x="262" y="180" width="270" height="10" rx="4" fill="#262626"/>
+  <rect x="262" y="202" width="200" height="10" rx="4" fill="#262626"/>
+  <rect x="70" y="262" width="160" height="90" rx="6" fill="#161616" stroke="#333333"/>
+  <rect x="250" y="262" width="160" height="90" rx="6" fill="#161616" stroke="#333333"/>
+  <rect x="430" y="262" width="140" height="90" rx="6" fill="#161616" stroke="#333333"/>
+</svg>

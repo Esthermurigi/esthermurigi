@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Contact form with validation placeholder">
+  <rect width="640" height="400" fill="#0d0d0d"/>
+  <rect x="14" y="14" width="612" height="372" fill="none" stroke="#333333" stroke-width="2"/>
+  <rect x="80" y="52" width="480" height="296" rx="8" fill="#161616" stroke="#333333" stroke-width="2"/>
+  <rect x="112" y="86" width="120" height="12" rx="4" fill="#4a4a4a"/>
+  <rect x="112" y="108" width="416" height="34" rx="4" fill="#0d0d0d" stroke="#3a3a3a"/>
+  <rect x="112" y="162" width="80" height="12" rx="4" fill="#4a4a4a"/>
+  <rect x="112" y="184" width="416" height="34" rx="4" fill="#0d0d0d" stroke="#8a3b3b" stroke-width="2"/>
+  <path d="M545 193l12 12M557 193l-12 12" stroke="#e05252" stroke-width="3" stroke-linecap="round"/>
+  <rect x="112" y="236" width="96" height="12" rx="4" fill="#4a4a4a"/>
+  <rect x="112" y="258" width="416" height="56" rx="4" fill="#0d0d0d" stroke="#3a3a3a"/>
+  <rect x="112" y="326" width="140" height="34" rx="4" fill="#2e2e2e" stroke="#666666"/>
+</svg>

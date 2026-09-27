@@ -9,23 +9,54 @@
 </head>
 <body>
     <nav>
-        <h1>Esther Murigi</h1>
+        <a class="brand" href="index.html">Esther Murigi</a>
         <a href="index.html">HOME</a>
+        <a href="projects.html">projects</a>
         <a href="contact.html">contacts</a>
-        <a href="project.html">projects</a>
     </nav>
 
-    <h2>Get in Touch</h2>
+    <main>
+    <h1>Get in Touch</h1>
 
     <p class="lead">
         Hiring for an information security role, planning a security programme, or
         weighing up a risk you would like a second opinion on? I would like to hear about it.
     </p>
 
-    <p>
-        Send me a short note about what you are working on and what success looks like.
-        I respond to every genuine enquiry within two business days.
-    </p>
+    <!-- ==========================================================
+         CONTACT FORM — validated by script.js
+         novalidate turns OFF the browser's own bubbles so our
+         JavaScript messages are the only ones the user sees.
+         ========================================================== -->
+    <form class="contact-form" id="contactForm" novalidate>
+        <div class="form-field">
+            <label for="name">Name <span class="req">*</span></label>
+            <input type="text" id="name" name="name" autocomplete="name"
+                   aria-describedby="nameError">
+            <p class="field-error" id="nameError" hidden></p>
+        </div>
+
+        <div class="form-field">
+            <label for="email">Email <span class="req">*</span></label>
+            <input type="email" id="email" name="email" autocomplete="email"
+                   aria-describedby="emailError">
+            <p class="field-error" id="emailError" hidden></p>
+        </div>
+
+        <div class="form-field">
+            <label for="message">Message <span class="req">*</span></label>
+            <textarea id="message" name="message" rows="6"
+                      aria-describedby="messageError"></textarea>
+            <p class="field-error" id="messageError" hidden></p>
+        </div>
+
+        <button type="submit" class="btn">Send message</button>
+
+        <!-- role="status" makes screen readers announce the result -->
+        <p class="form-status" id="formStatus" role="status"></p>
+    </form>
+
+    <h2>Other ways to reach me</h2>
 
     <!-- Replace the details below with your real contact information -->
     <ul class="contact-list">
@@ -42,10 +73,7 @@
             <span>Available remotely worldwide</span>
         </li>
     </ul>
-
-    <p class="cta">
-        Prefer to keep it brief? An email with three sentences is plenty.
-    </p>
+    </main>
 
     <footer>
         <div class="footer-content">
@@ -53,5 +81,7 @@
             <p class="tagline">Protecting systems • Securing data • Building trust</p>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
