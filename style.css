@@ -41,15 +41,29 @@ nav a {
 }
 
 nav a:hover {
-    color: white;
+    color: gray;
+    text-decoration: underline;
 }
 
-/* About Me Section */
-h1 {
+/* Headings */
+h1,
+h2 {
     font-size: 2.2rem;
     font-weight: 500;
     margin-bottom: 35px;
     letter-spacing: 1px;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 1.35rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 12px;
+    color: white;
 }
 
 img {
@@ -67,6 +81,125 @@ p {
     font-size: 1.1rem;
     color: gray;
     line-height: 1.75;
+    margin-bottom: 20px;
+}
+
+.lead {
+    font-size: 1.3rem;
+    color: white;
+    line-height: 1.6;
+}
+
+/* Services list (home page) */
+.services {
+    list-style: none;
+    max-width: 680px;
+    display: grid;
+    gap: 18px;
+    margin-bottom: 35px;
+}
+
+.services li {
+    border-left: 2px solid #444444;
+    padding-left: 18px;
+    color: gray;
+    line-height: 1.6;
+}
+
+.services li strong {
+    display: block;
+    color: white;
+    font-size: 1.05rem;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+}
+
+/* Call to action line */
+.cta {
+    margin-top: 40px;
+    color: white;
+}
+
+.cta a {
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    transition: color 0.25s ease;
+}
+
+.cta a:hover {
+    color: gray;
+}
+
+/* Contact details (contact page) */
+.contact-list {
+    list-style: none;
+    max-width: 680px;
+    display: grid;
+    gap: 14px;
+    margin-bottom: 20px;
+}
+
+.contact-list .label {
+    display: inline-block;
+    min-width: 110px;
+    color: white;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+
+.contact-list a {
+    color: gray;
+    text-decoration: none;
+    transition: color 0.25s ease;
+}
+
+.contact-list a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Project cards (projects page) */
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+    max-width: 960px;
+    margin-bottom: 20px;
+}
+
+.project-card {
+    border: 1px solid #333333;
+    border-radius: 8px;
+    padding: 25px;
+    background-color: #0d0d0d;
+    transition: border-color 0.25s ease;
+}
+
+.project-card:hover {
+    border-color: gray;
+}
+
+.project-tag {
+    color: #777777;
+    font-size: 0.8rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 1rem;
+}
+
+.project-result {
+    color: white;
+    border-top: 1px solid #333333;
+    padding-top: 14px;
+    margin-top: 16px;
+    margin-bottom: 0;
+    font-size: 0.95rem;
 }
 
 /* Responsive */
@@ -82,15 +215,20 @@ p {
         margin-right: 20px;
     }
 
-    h1 {
+    h1,
+    h2 {
         font-size: 1.8rem;
+    }
+
+    .contact-list .label {
+        display: block;
+        margin-bottom: 2px;
     }
 }
 
 /* Footer */
 footer {
     margin-top: 80px;
-    padding-left: 100px;
     border-top: 1px solid #333333;
     text-align: center;
 }
