@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Folder of upcoming coursework placeholder">
+  <rect width="640" height="400" fill="#0d0d0d"/>
+  <rect x="14" y="14" width="612" height="372" fill="none" stroke="#333333" stroke-width="2"/>
+  <path d="M170 150h72l24 30h134v128a14 14 0 0 1-14 14H184a14 14 0 0 1-14-14V150z"
+        fill="#161616" stroke="#4a4a4a" stroke-width="3"/>
+  <rect x="160" y="132" width="150" height="26" rx="8" fill="#1c1c1c" stroke="#4a4a4a" stroke-width="3"/>
+  <rect x="206" y="216" width="228" height="10" rx="5" fill="#333333"/>
+  <rect x="206" y="240" width="180" height="10" rx="5" fill="#2a2a2a"/>
+  <rect x="206" y="264" width="204" height="10" rx="5" fill="#2a2a2a"/>
+  <circle cx="452" cy="300" r="34" fill="#0d0d0d" stroke="#6a6a6a" stroke-width="3"/>
+  <path d="M438 300h28M452 286v28" stroke="#9a9a9a" stroke-width="4" stroke-linecap="round"/>
+</svg>

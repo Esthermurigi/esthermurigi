@@ -102,16 +102,16 @@
         <!-- Filter buttons: the JavaScript interaction on this page -->
         <div class="filter-bar" role="group" aria-label="Filter projects by category">
             <button type="button" class="filter-btn is-active" data-filter="all">All</button>
-            <button type="button" class="filter-btn" data-filter="web">Web</button>
-            <button type="button" class="filter-btn" data-filter="security">Security</button>
-            <button type="button" class="filter-btn" data-filter="coursework">Coursework</button>
+            <button type="button" class="filter-btn" data-filter="html-css">HTML &amp; CSS</button>
+            <button type="button" class="filter-btn" data-filter="javascript">JavaScript</button>
+            <button type="button" class="filter-btn" data-filter="coming">In progress</button>
         </div>
 
         <div class="project-list" id="projectGrid">
 
-            <article class="project-card" data-category="web coursework">
-                <img class="thumb" src="images/project-portfolio.svg" alt="Placeholder illustration of a portfolio website layout">
-                <p class="project-tag">Web &middot; Coursework</p>
+            <article class="project-card" data-category="html-css">
+                <img class="thumb" src="images/project-portfolio.svg" alt="Illustration of a portfolio website layout">
+                <p class="project-tag">Assignment 1</p>
                 <h3>Personal Portfolio Website</h3>
                 <p>
                     A multi-page responsive portfolio built from scratch with semantic
@@ -125,9 +125,9 @@
                 <a class="card-link" href="https://github.com/Esthermurigi/esthermurigi" target="_blank" rel="noopener">View repository &rarr;</a>
             </article>
 
-            <article class="project-card" data-category="web coursework">
-                <img class="thumb" src="images/project-form.svg" alt="Placeholder illustration of a contact form showing a validation error">
-                <p class="project-tag">Web &middot; Coursework</p>
+            <article class="project-card" data-category="javascript">
+                <img class="thumb" src="images/project-form.svg" alt="Illustration of a contact form showing a validation error">
+                <p class="project-tag">Assignment 2</p>
                 <h3>Validated Contact Form</h3>
                 <p>
                     A contact form with client-side validation in JavaScript that checks
@@ -141,33 +141,34 @@
                 <a class="card-link" href="contact.html">Try it live &rarr;</a>
             </article>
 
-            <article class="project-card" data-category="security">
-                <img class="thumb" src="images/project-scan.svg" alt="Placeholder illustration of a network scan with highlighted nodes">
-                <p class="project-tag">Security</p>
-                <h3>Network Vulnerability Scan Report</h3>
+            <article class="project-card" data-category="javascript">
+                <img class="thumb" src="images/project-filter.svg" alt="Illustration of project cards with filter buttons above them">
+                <p class="project-tag">Assignment 2</p>
+                <h3>Project Filter &amp; Skills Dashboard</h3>
                 <p>
-                    A structured report turning raw scan output into prioritised,
-                    business-friendly remediation steps. <em>Full write-up coming soon.</em>
-                </p>
-                <ul class="tech">
-                    <li>Nmap</li>
-                    <li>Risk Analysis</li>
-                    <li>Reporting</li>
-                </ul>
-                <span class="card-link is-disabled" aria-disabled="true">Coming soon</span>
-            </article>
-
-            <article class="project-card" data-category="security coursework">
-                <img class="thumb" src="images/project-audit.svg" alt="Placeholder illustration of a padlock with a password field">
-                <p class="project-tag">Security &middot; Coursework</p>
-                <h3>Password Policy Audit Tool</h3>
-                <p>
-                    A checklist-based audit that scores an organisation's password rules
-                    against recognised guidance and flags every gap it finds.
+                    The JavaScript behind this page: filter buttons that show or hide
+                    project cards by category, plus proficiency bars for my skills.
                 </p>
                 <ul class="tech">
                     <li>JavaScript</li>
-                    <li>Security Standards</li>
+                    <li>DOM</li>
+                    <li>CSS3</li>
+                </ul>
+                <a class="card-link" href="https://github.com/Esthermurigi/esthermurigi/blob/main/script.js" target="_blank" rel="noopener">View the code &rarr;</a>
+            </article>
+
+            <article class="project-card" data-category="coming">
+                <img class="thumb" src="images/project-coursework.svg" alt="Illustration of a folder holding upcoming coursework">
+                <p class="project-tag">In progress</p>
+                <h3>More CSN1101 Coursework</h3>
+                <p>
+                    Further assignments for this module are still being built. Each one
+                    will be added here as soon as it is finished.
+                </p>
+                <ul class="tech">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
                 </ul>
                 <span class="card-link is-disabled" aria-disabled="true">Coming soon</span>
             </article>
